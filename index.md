@@ -24,6 +24,14 @@ Machine learning models, such as XGBoost, are integrated to predict electronic p
 
 The repository can be found here: [GrapheNetDefectDetector](https://github.com/daimoners/GrapheNetDefectDetector)
 
+- ### Extension to Synthetic Data Generation (Chapter 7 Extension)
+
+This project introduces a generative approach based on Variational Autoencoders (VAEs) to expand the applicability of defect analysis in nanographene. The VAE is trained to generate synthetic images of defective graphene (DG) flakes with small distributed defects, tailored for applications in nano-electronics.
+
+The synthetic dataset produced by the VAE can be seamlessly integrated with the previously developed property prediction pipeline, which combines geometric feature extraction with gradient boosting regression. This enables efficient screening and identification of defect configurations most likely to exhibit desirable electronic transport properties, supporting data-driven exploration of novel nanostructures for technological applications.
+
+The repository can be found here: [VAE_DefectedGraphene](https://github.com/daimoners/VAE_DefectedGraphene)
+
 ## Exploring the Interplay of Material Properties, Production Parameters, and ML in Mechanical Property Prediction (Chapter 8)
 
 This project explores the macro-scale application of machine learning for predicting the mechanical properties of polymeric specimens produced via additive manufacturing (AM). By integrating experimental tensile test data with supervised ML models, the framework achieves high predictive accuracy for elastic properties such as Young’s modulus and yield strength.
