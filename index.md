@@ -26,11 +26,11 @@ The repository can be found here: [GrapheNetDefectDetector](https://github.com/d
 
 - ### Extension to Synthetic Data Generation (Chapter 7 Extension)
 
-This project introduces a generative approach based on Variational Autoencoders (VAEs) to expand the applicability of defect analysis in nanographene. The VAE is trained to generate synthetic images of defective graphene (DG) flakes with small distributed defects, tailored for applications in nano-electronics.
+    This project introduces a generative approach based on Variational Autoencoders (VAEs) to expand the applicability of defect analysis in nanographene. The VAE is trained to generate synthetic images of defective graphene (DG) flakes with small distributed defects, tailored for applications in nano-electronics.
 
-The synthetic dataset produced by the VAE can be seamlessly integrated with the previously developed property prediction pipeline, which combines geometric feature extraction with gradient boosting regression. This enables efficient screening and identification of defect configurations most likely to exhibit desirable electronic transport properties, supporting data-driven exploration of novel nanostructures for technological applications.
+    The synthetic dataset produced by the VAE can be seamlessly integrated with the previously developed property prediction pipeline, which combines geometric feature extraction with gradient boosting regression. This enables efficient screening and identification of defect configurations most likely to exhibit desirable electronic transport properties, supporting data-driven exploration of novel nanostructures for technological applications.
 
-The repository can be found here: [VAE_DefectedGraphene](https://github.com/daimoners/VAE_DefectedGraphene)
+    The repository can be found here: [VAE_DefectedGraphene](https://github.com/daimoners/VAE_DefectedGraphene)
 
 ## Exploring the Interplay of Material Properties, Production Parameters, and ML in Mechanical Property Prediction (Chapter 8)
 
